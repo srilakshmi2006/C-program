@@ -26,7 +26,12 @@ void sum()
           sum=a+b;
           printf("addition=%d\n",sum);
 }
-
+void sub()
+{
+	int a=10,b=20,sub;
+	sub=a-b;
+	printf("subtraction =%d\n",sub);
+}
 {
 	div();
 	return 0;
